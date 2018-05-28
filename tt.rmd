@@ -1,0 +1,28 @@
+---
+title: "QXXXX - Project Report"
+subtitle: "Project Title"
+author: "Praveen Baskaran, Project Manager"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  html_document:
+    toc: true
+   toc_float: true
+  toc_depth: 3
+  theme: default
+  number_sections: true
+  css: Etc/corp-styles.css
+  highlight: pygments
+ bibliography: lit.bib
+---
+
+
+```{r docSetup, bootstrap.show.code = FALSE, dev = 'png', bootstrap.show.message=FALSE,echo=FALSE,message=FALSE}
+## knitrBoostrap and device chunk options
+require('knitr')
+opts_chunk$set(bootstrap.show.code = FALSE, dev = 'png',echo=FALSE)
+
+```
+Qbic Report for project:: png
+================================
+
+
